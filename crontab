@@ -1,0 +1,1 @@
+*/5 * * * * curl -s -X POST -H "Content-Type: text/plain" -H "Secret: <SECRET>" --data "`hostname`|`uptime`" ieng6.zinsser.me/update.php
